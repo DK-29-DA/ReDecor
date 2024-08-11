@@ -1,0 +1,158 @@
+  * {box-sizing: border-box}
+body {font-family: cursive, sans-serif; margin:0;background:#white;}
+
+header {
+  width:100%;
+  height:150px;
+  background:#282828;
+}
+
+/* /////////////////////////  LOGO MANAGER  ////////////////////////// */
+
+img#logo {
+  margin-left: 0;
+  margin-right: 100px;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  top:0;
+  left: 0;
+  opacity: 0.5;
+}
+
+nav {
+  display:inline-block;
+  margin-left: 300px;
+  margin-top: 60px;
+  font-size: 7px;
+  font-family:cursive;
+}
+
+a {
+   color: white;
+   text-decoration: underline;
+   font-size: 16px;
+   font-family:cursive;
+   font-family: cursive;
+   margin-right: 20px;
+   padding: 30px;
+}
+
+a:hover {
+    color: white;
+    background: grey;
+    padding: 30px;
+    opacity: 0.5;
+}
+
+         
+section#pro1 {
+    width:60%;
+    height:500px;
+    background: #282828;
+    top:100px;
+    position:relative;
+    left:300px;
+    text-align:center;
+    color:white;
+}
+
+section#pro2 {
+    width:60%;
+    height:500px;
+    background: #282828;
+    position:absolute;
+    left:300px;
+    text-align:center;
+    color:white;
+    top:900px;
+}
+
+section#pro3 {
+    width:60%;
+    height:500px;
+    background: #282828;
+    top:1500px;
+    position:absolute;
+    left:300px;
+    text-align:center;
+    color:white;
+}
+
+section#pro4 {
+    width:60%;
+    height:500px;
+    background: #282828;
+    top:2100px;
+    position:absolute;
+    left:300px;
+    text-align:center;
+    color:white;
+}
+
+img#d1 {
+    width:400px;
+    height:300px;
+    top:110px;
+    left:90px;
+    position:absolute;
+}
+
+div.text {
+    top:110px;
+    left:550px;
+    width:300px;
+    height:500px;
+    position:absolute;
+    color:white;
+    text-align:center;
+}
+
+/* ////////////////////////////////////// ABOUT SECTION MANAGER  /////////////////////////////////////// */
+
+section#about {
+    width: 100%;
+    height: 300px;
+    background: #060606;
+    position: absolute;
+    top: 2700px;
+    left: 0;
+    color: white;
+    text-align: left;
+}
+
+div.about {
+    position:relative;
+    margin-top: 2px;
+}
+
+/* /////////////////////////////////////////  FOOTER MANAGER  ///////////////////////////////////////// */
+
+footer {
+    width: 100%;
+    height: 80px;
+    background:#404040;
+    position: absolute;
+    top: 3000px;
+    left: 0;
+}
+
+footer:hover {
+  background: grey;
+}
+
+p#footer {
+    text-align: center;
+    color: white;
+    top: 20px;
+    left:500px;
+    font-size:20px;;
+    position:absolute;
+}
+
+img#foot{
+    position:absolute;
+    height:80px;
+    width:150px;
+}
+            
